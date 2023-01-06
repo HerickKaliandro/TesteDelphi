@@ -1,0 +1,36 @@
+unit UntCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TUnitCadastro = class(TForm)
+    EdtNome: TEdit;
+    EdtSobrenome: TEdit;
+    EdtCep: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    lblPessoa: TLabel;
+    lblEndereco: TLabel;
+    lblNome: TLabel;
+    lblSobrenome: TLabel;
+    LblCep: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  UnitCadastro: TUnitCadastro;
+
+implementation
+
+{$R *.dfm}
+
+end.

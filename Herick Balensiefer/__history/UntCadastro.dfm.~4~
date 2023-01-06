@@ -1,0 +1,235 @@
+object UnitCadastro: TUnitCadastro
+  Left = 540
+  Top = 332
+  Caption = 'Cadastro'
+  ClientHeight = 546
+  ClientWidth = 883
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblPessoa: TLabel
+    Left = 32
+    Top = 16
+    Width = 156
+    Height = 24
+    Caption = 'Cadastro Pessoa:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblEndereco: TLabel
+    Left = 32
+    Top = 203
+    Width = 179
+    Height = 24
+    Caption = 'Cadastro Endere'#231'o:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblNome: TLabel
+    Left = 32
+    Top = 62
+    Width = 35
+    Height = 15
+    Caption = 'Nome:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblSobrenome: TLabel
+    Left = 32
+    Top = 94
+    Width = 65
+    Height = 15
+    Caption = 'Sobrenome:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblCep: TLabel
+    Left = 32
+    Top = 250
+    Width = 25
+    Height = 15
+    Caption = 'Cep:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblCidade: TLabel
+    Left = 32
+    Top = 284
+    Width = 41
+    Height = 15
+    Caption = 'Cidade:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblUf: TLabel
+    Left = 32
+    Top = 317
+    Width = 19
+    Height = 15
+    Caption = 'UF:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblBairro: TLabel
+    Left = 32
+    Top = 348
+    Width = 41
+    Height = 15
+    Caption = 'Bairro:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblLogradouro: TLabel
+    Left = 32
+    Top = 381
+    Width = 68
+    Height = 15
+    Caption = 'Logradouro:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LblComplemento: TLabel
+    Left = 32
+    Top = 412
+    Width = 78
+    Height = 15
+    Caption = 'Complemento:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EdtNome: TEdit
+    Left = 125
+    Top = 56
+    Width = 312
+    Height = 21
+    TabOrder = 0
+  end
+  object EdtSobrenome: TEdit
+    Left = 125
+    Top = 88
+    Width = 312
+    Height = 21
+    TabOrder = 1
+  end
+  object EdtCidade: TEdit
+    Left = 125
+    Top = 278
+    Width = 312
+    Height = 21
+    TabOrder = 3
+  end
+  object EdtBairro: TEdit
+    Left = 125
+    Top = 342
+    Width = 312
+    Height = 21
+    TabOrder = 5
+  end
+  object EdtLogradouro: TEdit
+    Left = 125
+    Top = 375
+    Width = 312
+    Height = 21
+    TabOrder = 6
+  end
+  object EdtComplemento: TEdit
+    Left = 125
+    Top = 406
+    Width = 312
+    Height = 21
+    TabOrder = 7
+  end
+  object EdtCep: TMaskEdit
+    Left = 125
+    Top = 244
+    Width = 121
+    Height = 21
+    EditMask = '00000-000;1;_'
+    MaxLength = 9
+    TabOrder = 2
+    Text = '     -   '
+  end
+  object CBUf: TComboBox
+    Left = 125
+    Top = 311
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Items.Strings = (
+      '  '
+      'AC'
+      'AL'
+      'AP'
+      'AM'
+      'BA'
+      'CE'
+      'ES'
+      'GO'
+      'MA'
+      'MT'
+      'MS'
+      'MG'
+      'PA'
+      'PB'
+      'PR'
+      'PE'
+      'PI'
+      'RJ'
+      'RN'
+      'RS'
+      'RO'
+      'RR'
+      'SC'
+      'SP'
+      'SE'
+      'TO'
+      'DF')
+  end
+end

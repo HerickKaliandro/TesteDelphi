@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/05 16:38:06.000.098,=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/05 16:39:59.000.891,C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Teste.dproj=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/05 16:40:40.000.870,C:\Users\Herick\Documents\Embarcadero\Studio\Projects\TesteDesbravador.dproj=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Teste.dproj</Transaction>
+    <Transaction>2023/01/05 16:41:09.000.953,C:\TesteDelphi\Herick Balensiefer\UntCadastro.dfm=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/05 16:41:09.000.953,C:\TesteDelphi\Herick Balensiefer\UntCadastro.pas=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/05 16:41:13.000.207,C:\TesteDelphi\Herick Balensiefer\TesteDesbravador.dproj=C:\Users\Herick\Documents\Embarcadero\Studio\Projects\TesteDesbravador.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
